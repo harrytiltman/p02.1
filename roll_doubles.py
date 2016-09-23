@@ -28,4 +28,4 @@ def run_tests():
     doctest.testmod(verbose=True)
 
 
-def roll_double(dice1, dice2):
+def roll_double(dice1, dice2)
