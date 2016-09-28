@@ -29,3 +29,14 @@ def run_tests():
 
 
 def roll_double(dice1, dice2)
+    doctest.testmod(verbose=True)
+
+
+def roll_double(dice1, dice2):
+    if dice1 == dice2:
+        result = (dice1 + dice2) * 2
+        print(result)
+
+    else:
+        result = dice1 + dice2
+        print(result)
