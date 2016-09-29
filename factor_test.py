@@ -40,5 +40,3 @@ def factor_test(a, b):
 
     else:
         print("No factors here")
-
-

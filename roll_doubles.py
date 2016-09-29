@@ -28,10 +28,6 @@ def run_tests():
     doctest.testmod(verbose=True)
 
 
-def roll_double(dice1, dice2)
-    doctest.testmod(verbose=True)
-
-
 def roll_double(dice1, dice2):
     if dice1 == dice2:
         result = (dice1 + dice2) * 2
